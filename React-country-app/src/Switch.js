@@ -8,7 +8,7 @@ function Switch() {
   const [countries, setCountries] = useState([])
   useEffect(() => {
     async function fetData() {
-      const res = await axios.get('http://localhost:3001/api')
+      const res = await axios.get('https://tom-country-app.herokuapp.com/api')
       const { data } = res
       setCountries(data)
     }
