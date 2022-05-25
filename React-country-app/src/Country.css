@@ -1,0 +1,122 @@
+.Country-bg {
+  min-height: 95vh;
+  background-color: #F5F5F5
+}
+.Country-bg-dk {
+  min-height: 95vh;
+  background-color: #282c34;
+  color: white
+}
+.Country-container {
+  margin: 0 auto;
+  padding: 0 4rem;
+  max-width: 1440px;
+}
+.Country-btn, .Country-btn-dk:hover {
+  margin-top: 3rem;
+  border: none;
+  box-shadow: 0px 0px 15px -5px #6E6E6E;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: black
+}
+.Country-btn-dk, .Country-btn:hover {
+  margin-top: 3rem;
+  border: none;
+  background-color: #3e4355;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: white
+}
+.Country-info {
+  margin-top: 3rem;
+  display: flex;
+}
+.Country-flag {
+  width: 40%;
+  margin-right: 5rem
+}
+.Country-details {
+  display: flex;
+  flex-direction: column;
+  width: 60%
+}
+.Country-details-mid {
+  display: flex;
+}
+.Country-details-mid-left {
+  width: 50%
+}
+.Country-details-mid-right {
+  width: 50%
+}
+.Country-details h3, .Country-details span {
+  font-weight: 800;
+}
+.Country-details-borders {
+  display: flex;
+  margin-top: 3rem
+}
+.Country-details-borders-title {
+  width: 8rem;
+  margin-top: 10px
+}
+.BorderCountry-link, .BorderCountry-link-dk:hover {
+  border: none;
+  box-shadow: 0px 0px 15px -5px #6E6E6E;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin: 10px 10px 0 10px;
+  color: black
+}
+.BorderCountry-link-dk, .BorderCountry-link:hover {
+  border: none;
+  background-color: #3e4355;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin: 10px 10px 0 10px;
+  color: white
+}
+.Country-details-borders-btn {
+  padding-bottom: 2rem
+}
+.Country-details-borders-btn > p {
+  margin: 10px 0 0 10px
+}
+
+@media(max-width: 500px) {
+  .Country-container {
+    padding: 0 2rem
+  }
+  .Country-info, .Country-details, .Country-details-mid, .Country-details-borders {
+    display: block
+  }
+  .Country-flag img {
+    width: 100%;
+  }
+  .Country-details {
+    margin-top: 2rem
+  }
+  .Country-flag, .Country-details, .Country-details-mid, .Country-details-mid-left, .Country-details-mid-right {
+    width: 100%
+  }
+  .Country-details-borders-btn {
+    padding: 0 0 2.5rem 0;
+  }
+  .BorderCountry-link,  .BorderCountry-link:hover, .BorderCountry-link-dk, .BorderCountry-link-dk:hover {
+    margin: 10px 10px 0 0
+  }
+}
+
+@media(min-width: 501px) and (max-width: 670px) {
+  .Country-container {
+    padding: 0 1rem
+  }
+}
+@media(min-width: 671px) and (max-width: 740px) {
+  .Country-container {
+    padding: 0 2rem
+  }
+}
